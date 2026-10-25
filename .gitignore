@@ -1,0 +1,18 @@
+# Private working notes and essay drafts (not part of the code release)
+CLAUDE.md
+docs/
+
+# Generated simulation output (tripinfo XMLs, SUMO logs) - ~580 MB, reproducible
+outputs/*
+!outputs/scenario_results.csv
+!outputs/demand_sweep_results.csv
+!outputs/demand_sweep_verify.csv
+
+# Python
+__pycache__/
+*.pyc
+
+# Editor / OS
+.vscode/
+.DS_Store
+Thumbs.db

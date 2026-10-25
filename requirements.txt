@@ -1,0 +1,9 @@
+# Python 3.13. SUMO 1.26.0 is installed separately (https://eclipse.dev/sumo/).
+sumo-rl==1.4.5
+stable-baselines3==2.9.0
+torch==2.13.0
+gymnasium==1.3.0
+traci==1.27.1
+sumolib==1.27.1
+pyproj
+matplotlib
