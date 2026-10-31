@@ -1,6 +1,6 @@
-# RL Traffic Signal Control: Don Mills Rd / Lawrence Ave E, Toronto
+# Traffic Controller: RL Signal Control at Don Mills Rd / Lawrence Ave E, Toronto
 
-By **Noah Taylor** · IB Extended Essay (Computer Science), 2026
+By **Noah Taylor** · 2026
 
 A DQN signal controller compared against tuned fixed-time (Webster) and actuated
 baselines at one real four-way intersection, using SUMO microsimulation and
@@ -83,3 +83,5 @@ October 2026, so the git history starts at the finished state. The main stages:
 | Aug 17 | Matched 08:00 / 17:00 comparison: the advantage tracks saturation, not traffic direction |
 | Aug 18 | Repeated training run at 08:00: training variance grows with saturation |
 | Oct | Scaled-demand sweep (`demand_sweep.py`) |
+
+This project is also the basis of my IB Extended Essay in Computer Science.
