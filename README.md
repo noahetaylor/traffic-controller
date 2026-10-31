@@ -56,7 +56,14 @@ detector-gap sweep); RL is the best training snapshot.
 
 At this intersection, RL wins at midday, ties at the evening peak and loses at
 the morning peak.
-`outputs/demand_sweep_results.csv` holds the scaled-demand sweep.
+**Recent, still being analyzed:** a scaled-demand sweep (`demand_sweep.py`,
+`outputs/demand_sweep_results.csv`, October 2026) does not reproduce a clean
+pattern. With the 08:00 demand scaled from 0.5x to 1.3x, RL beats both
+baselines only at the lowest scale (Y = 0.37) and loses at every scale above
+it. The sweep differs from the three real hours (one demand pattern scaled up
+and down, a policy trained at each scale), and it may also contain an error I
+haven't found yet. The three-hour results above are unaffected; whether they
+generalize is an open question.
 
 ## Development history
 
