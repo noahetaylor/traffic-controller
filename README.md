@@ -1,5 +1,7 @@
 # RL Traffic Signal Control: Don Mills Rd / Lawrence Ave E, Toronto
 
+By **Noah Taylor** · IB Extended Essay (Computer Science), 2026
+
 A DQN signal controller compared against tuned fixed-time (Webster) and actuated
 baselines at one real four-way intersection, using SUMO microsimulation and
 Toronto turning-movement counts.
