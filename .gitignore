@@ -4,7 +4,6 @@ docs/
 
 # Generated simulation output (tripinfo XMLs, SUMO logs) - ~580 MB, reproducible
 outputs/*
-!outputs/scenario_results.csv
 !outputs/demand_sweep_results.csv
 !outputs/demand_sweep_verify.csv
 
